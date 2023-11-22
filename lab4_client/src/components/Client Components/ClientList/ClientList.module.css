@@ -1,0 +1,9 @@
+.clients{
+    width: 80%;
+    margin-bottom: 12vh;
+}
+
+.clients thead{
+    background: darkgrey;
+    border-radius: 12px;
+}

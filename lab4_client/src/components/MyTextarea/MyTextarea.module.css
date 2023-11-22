@@ -1,0 +1,63 @@
+.MyTextarea{
+    position: relative;
+    /*padding: 10px 0;*/
+}
+
+.MyTextarea label{
+    transform-origin: left center;
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    display: block;
+    position: absolute;
+    /*margin-top: -40px;*/
+    z-index: 2;
+    pointer-events: none;
+
+    /*transition: all 0.25s cubic-bezier(.53,.01,.35,1.5);*/
+    /*transform: translate( 0 , -43px );*/
+    top: 8%;
+    left: 4%;
+}
+
+.MyTextarea textarea {
+    appearance: none;
+    /*background-color: none;*/
+    border: 1px solid grey;
+    /*line-height: 0;*/
+    font-size: 17px;
+    min-width: 400px;
+    width: 100%;
+    min-height: 128px;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px calc(4% + 15px);
+    border-radius: 32px;
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+
+    transition: all 0.25s cubic-bezier(.53,.01,.35,1.5);
+}
+
+.MyTextarea textarea:focus{
+    outline: none;
+    background: grey;
+    color: white;
+    margin-top: 30px;
+}
+
+.MyTextarea textarea:focus ~ label,
+.MyTextarea textarea:valid ~ label{
+    transform: translate( 0 , -8px );
+    top: -2px;
+}
+
+.MyTextarea textarea:valid{
+    margin-top: 30px
+}

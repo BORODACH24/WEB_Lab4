@@ -1,0 +1,11 @@
+.newsBar{
+    background: grey;
+    padding: 8px;
+    width: 82%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 16px;
+}

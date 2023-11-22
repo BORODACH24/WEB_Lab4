@@ -1,0 +1,66 @@
+.newsDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('https://files.123freevectors.com/wp-content/original/131382-abstract-grey-and-white-polygon-pattern-background-illustration.jpg');
+    min-height: 100vh;
+}
+.Container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 12px;
+}
+
+.Title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.ButtonsContainer {
+    display: flex;
+    gap: 12px;
+}
+
+.deleteButton,
+.backButton{
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.deleteButton{
+    background-color: orangered;
+}
+
+.Summary {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.MainPart {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Image {
+    max-height: 30vh;
+    float: left;
+    margin-right: 20px;
+    border-radius: 8px;
+}

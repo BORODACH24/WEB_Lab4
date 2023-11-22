@@ -1,0 +1,20 @@
+.orderForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:12px;
+
+}
+
+.orderForm  button{
+    margin: auto;
+    min-width: 100px;
+    width: 20%;
+    min-height: 48px;
+    border-radius: 24px;
+    border: none;
+    background: #dddddd;
+}
+.orderForm  button:hover{
+    transform: scale(1.1);
+}

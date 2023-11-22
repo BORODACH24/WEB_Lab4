@@ -1,0 +1,15 @@
+.starWidget{
+    display: flex;
+    gap: 8px;
+    background: grey;
+    padding: 8px;
+    border-radius: 12px;
+    width: auto;
+    max-width: 200px;
+    aspect-ratio: 208/48;
+}
+
+.starWidget svg{
+    flex-grow: 1;
+    height: 100%;
+}

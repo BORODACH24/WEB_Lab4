@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-family: 'poppins',sans-serif;*/
+/*}*/
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background-color: #4097c5;
+    background-image: url('https://raw.githubusercontent.com/Hashtechieofficial/Form-/main/background6.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.formBox{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+.backButton{
+    position: absolute;
+    top: 54px;
+    left: 16px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /*border: 2px solid rgba(255,255,255,0.5);*/
+    border: none;
+    background: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition-duration: 0.2s;
+}
+.backButton:hover{
+    background: rgba(255,255,255,0.15);
+}
+/*.backButton:hover path{*/
+/*    fill: transparent;*/
+/*}*/

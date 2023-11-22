@@ -1,0 +1,47 @@
+.hotelPlate{
+    width: 100%;
+    min-height: 200px;
+    background: #bdbdbd;
+    border-radius: 24px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    padding: 12px;
+    box-sizing: border-box;
+}
+@media (max-width: 900px) {
+    .hotelPlate{
+        justify-items: center;
+    }
+}
+
+.Header {
+    display: flex;
+    /*align-items: center;*/
+    margin-bottom: 20px;
+    gap: 12px;
+    /*justify-content: space-between;*/
+    flex-direction: column;
+}
+
+.hotelPlate .title{
+    font-size: calc(12px + 2vw);
+}
+
+.hotelPlate .summary{
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
+    width: 80%;
+}
+@media (max-width: 900px) {
+    .hotelPlate .summary{
+
+    }
+}
+
+.hotelPlate img{
+    float: left;
+    margin: 24px;
+    border-radius: 24px;
+    place-self: center;
+    max-height: 256px;
+}

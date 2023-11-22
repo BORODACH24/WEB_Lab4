@@ -1,0 +1,113 @@
+.SideBar {
+    /* side-bar */
+
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    right: 0px;
+    top: 0px;
+    background: #505050;
+    border-radius: 12px;
+    transition-duration: 1s;
+    display: flex;
+    flex-direction: column;
+    margin:12px;
+}
+
+    .SideBar:hover {
+        width: 256px;
+        height: 99vh;
+        margin: 4px;
+    }
+
+.SideBarButton {
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    right: 12px;
+    top: 12px;
+    z-index: 4;
+    background: #5D5D5D;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+}
+
+    .SideBarButton:hover {
+        transform: scale(1.05);
+    }
+
+        .SideBarButton:hover + .SideBar {
+            width: 256px;
+            height: 99vh;
+            margin: 4px;
+        }
+
+.SideBarButtonLine {
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    left: 8px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+.LoginLabel {
+    position: relative;
+    min-width: 172px;
+    min-height: 48px;
+    margin-left: 12px;
+    margin-right: 64px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.SideBarOpened,
+.SideBarClosed{
+    position: fixed;
+
+    top: 0px;
+    right: 0px;
+    background: #505050;
+    border-radius: 12px;
+    transition-duration: 0.5s;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.SideBarOpened {
+    width: 256px;
+    height: 99vh;
+    margin: 4px;
+}
+.SideBarClosed {
+    width: 48px;
+    height: 48px;
+    margin: 12px;
+}
+.SideBarScroll {
+    position: relative;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    height: calc(100% + 17px);
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 76px;
+    border-radius: 12px;
+}
+.SideBarScroll::-webkit-scrollbar {
+    display: none;
+}
+a{
+    text-decoration: none;
+}

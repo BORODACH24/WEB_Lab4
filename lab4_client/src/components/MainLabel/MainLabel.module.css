@@ -1,0 +1,12 @@
+.mainLabel{
+    margin-top: 64px;
+    margin-bottom: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    /* identical to box height, or 64px */
+    color: #000000;
+    backdrop-filter: blur(2px);
+    text-align: center;
+}

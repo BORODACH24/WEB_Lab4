@@ -1,0 +1,19 @@
+.MenuButton {
+    position: relative;
+    min-width: 232px;
+    min-height: 52px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    background: #5D5D5D;
+    border-radius: 12px;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    border: none;
+    display: block;
+}
+
+    .MenuButton:hover {
+        background: #555555;
+    }

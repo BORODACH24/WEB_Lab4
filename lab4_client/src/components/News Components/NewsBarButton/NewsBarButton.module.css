@@ -1,0 +1,15 @@
+.newsBarButton{
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    aspect-ratio: 1;
+    transition: 0.4s ease-in-out;
+}
+
+.newsBarButton:hover{
+    background: darkgrey;
+}

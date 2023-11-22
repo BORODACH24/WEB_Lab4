@@ -1,0 +1,61 @@
+.MyInput{
+    position: relative;
+    /*padding: 10px 0;*/
+}
+
+.MyInput label{
+    transform-origin: left center;
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    display: block;
+    position: absolute;
+    /*margin-top: -40px;*/
+    z-index: 2;
+    pointer-events: none;
+
+    /*transition: all 0.25s cubic-bezier(.53,.01,.35,1.5);*/
+    transform: translate( 0 , -43px );
+}
+
+.MyInput input{
+    appearance: none;
+    /*background-color: none;*/
+    border: 1px solid grey;
+    /*line-height: 0;*/
+    font-size: 17px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 60px;
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+
+    transition: all 0.25s cubic-bezier(.53,.01,.35,1.5);
+}
+
+.MyInput input:focus{
+    outline: none;
+    background: grey;
+    color: white;
+    margin-top: 30px;
+}
+
+.MyInput input:focus ~ label,
+.MyInput input[type='date'] ~ label,
+.MyInput input:valid ~ label{
+    transform: translate( 0 , -8px );
+    top: -2px;
+}
+
+.MyInput input:valid,
+.MyInput input[type='date']{
+    margin-top: 30px
+}

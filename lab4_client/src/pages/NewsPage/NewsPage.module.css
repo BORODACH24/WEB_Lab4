@@ -1,0 +1,63 @@
+.newsPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://files.123freevectors.com/wp-content/original/131382-abstract-grey-and-white-polygon-pattern-background-illustration.jpg');
+    min-height: 100vh;
+    background-size: cover;
+}
+.news-form-plate{
+    width: 100%;
+    min-height: 200px;
+    background: #bdbdbd;
+    border-radius: 24px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    margin: auto;
+
+}
+.news-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 24px;
+    gap:12px;
+
+}
+.news-form input, textarea{
+    width: 90%;
+    min-height: 24px;
+    background: none;
+    border-radius: 12px;
+    border: 1px solid #5D5D5D;
+    padding: 4px 12px;
+}
+.news-form  textarea{
+    max-width: 96%;
+    width: 96%;
+    padding-top: 12px;
+    margin-left: 2%;
+}
+.news-form  button{
+    margin: auto;
+    min-width: 20%;
+    min-height: 48px;
+    border-radius: 24px;
+    border: none;
+    background: #dddddd;
+}
+.news-form  button:hover{
+    transform: scale(1.1);
+}
+.news-letter{
+    display: flex;
+    flex-direction: column;
+    margin: 64px;
+    gap: 12px;
+}
+.news-letter img{
+    width: 10%;
+    float: left;
+}
+.main_part{
+    columns: 150px 3;
+}

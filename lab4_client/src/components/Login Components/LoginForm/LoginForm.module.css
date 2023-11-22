@@ -1,0 +1,57 @@
+.inputbox{
+    position: relative;
+    /*margin: 16px 0;*/
+    width: 310px;
+    border: none;
+    border-bottom: 2px solid #fff;
+
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputbox input:focus ~ label,
+.inputbox input:valid ~ label{
+    top: -2px;
+}
+.TextInput{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    /*padding:0 35px 0 5px;*/
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.loginButton{
+    width: 80%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.loginForm{
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}

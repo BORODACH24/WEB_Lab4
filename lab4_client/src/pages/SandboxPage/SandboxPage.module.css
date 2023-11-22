@@ -1,0 +1,10 @@
+.sandbox{
+    height: 200vh;
+    background: url('https://files.123freevectors.com/wp-content/original/131382-abstract-grey-and-white-polygon-pattern-background-illustration.jpg');
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+.sandbox h1{
+    position: fixed;
+}
